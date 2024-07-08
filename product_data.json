@@ -1,0 +1,41 @@
+[
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "name": "Помидоры",
+      "category": 1,
+      "price": 129.0,
+      "photo": "catalog/photo/помидоры.jpg",
+      "description": "",
+      "created_at": "2024-06-25",
+      "updated_at": "2024-06-25"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "name": "Абрикосы",
+      "category": 2,
+      "price": 230.0,
+      "photo": "",
+      "description": "",
+      "created_at": "2024-06-25",
+      "updated_at": "2024-06-25"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+      "name": "Молоко",
+      "category": 3,
+      "price": 120.0,
+      "photo": "catalog/photo/молоко.jpg",
+      "description": "",
+      "created_at": "2024-06-25",
+      "updated_at": "2024-06-25"
+    }
+  }
+]

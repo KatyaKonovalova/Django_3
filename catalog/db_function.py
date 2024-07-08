@@ -11,14 +11,14 @@ class Command(BaseCommand):
     @staticmethod
     def json_read_categories():
         # Здесь мы получаем данные из фикстур с категориями
-        with open('categories_data.json', 'r') as f:
+        with open('category_data.json', 'r') as f:
             raw_data = f.read()
         return json.loads(raw_data)
 
     @staticmethod
     def json_read_products():
         # Здесь мы получаем данные из фикстур с продуктами
-        with open('products_data.json', 'r') as f:
+        with open('product_data.json', 'r') as f:
             raw_data = f.read()
         return json.loads(raw_data)
 
